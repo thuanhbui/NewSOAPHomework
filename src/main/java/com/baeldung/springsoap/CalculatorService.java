@@ -39,7 +39,7 @@ public class CalculatorService {
         }
         else if(operator.equals("/")) {
             if(number2 == 0) {
-                throw new IllegalArgumentException("Không thể chia cho 0");
+                throw new IllegalArgumentException("Khong the chia cho 0");
             } else {
                 return number1 / number2;
             }
@@ -48,7 +48,7 @@ public class CalculatorService {
             return (float) Math.pow(number1, number2);
         }
         else {
-            throw new IllegalArgumentException("Phép toán không hợp lệ");
+            throw new IllegalArgumentException("Phep toan khong hop le");
         }
     }
 }
