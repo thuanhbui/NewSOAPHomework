@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.baeldung.com/springsoap/gen" targetNamespace="http://www.baeldung.com/springsoap/gen" elementFormDefault="qualified">
+
+    <xs:element name="addRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="number1" type="xs:float"/>
+                <xs:element name="number2" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="minusRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="number1" type="xs:float"/>
+                <xs:element name="number2" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="multipleRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="number1" type="xs:float"/>
+                <xs:element name="number2" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="divideRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="number1" type="xs:float"/>
+                <xs:element name="number2" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="expRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="number1" type="xs:float"/>
+                <xs:element name="number2" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="calculatorResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
