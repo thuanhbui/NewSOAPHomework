@@ -24,8 +24,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="number1" type="{http://www.w3.org/2001/XMLSchema}float"/>
- *         &lt;element name="number2" type="{http://www.w3.org/2001/XMLSchema}float"/>
+ *         &lt;element name="result" type="{http://www.w3.org/2001/XMLSchema}float"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,45 +35,27 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "number1",
-    "number2"
+    "result"
 })
-@XmlRootElement(name = "expRequest")
-public class ExpRequest {
+@XmlRootElement(name = "multipleResponse")
+public class MultipleResponse {
 
-    protected float number1;
-    protected float number2;
+    protected float result;
 
     /**
-     * Gets the value of the number1 property.
+     * Gets the value of the result property.
      * 
      */
-    public float getNumber1() {
-        return number1;
+    public float getResult() {
+        return result;
     }
 
     /**
-     * Sets the value of the number1 property.
+     * Sets the value of the result property.
      * 
      */
-    public void setNumber1(float value) {
-        this.number1 = value;
-    }
-
-    /**
-     * Gets the value of the number2 property.
-     * 
-     */
-    public float getNumber2() {
-        return number2;
-    }
-
-    /**
-     * Sets the value of the number2 property.
-     * 
-     */
-    public void setNumber2(float value) {
-        this.number2 = value;
+    public void setResult(float value) {
+        this.result = value;
     }
 
 }

@@ -1,12 +1,16 @@
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/Application.java
+/Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/AddResponse.java
+/Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/ExpResponse.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/DivideRequest.java
-/Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/CalculatorResponse.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/AddRequest.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/package-info.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/WebServiceConfig.java
+/Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/MinusResponse.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/CalculatorService.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/ExpRequest.java
+/Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/MultipleResponse.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/CalculatorRequest.java
+/Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/DivideResponse.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/MultipleRequest.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/MinusRequest.java
 /Users/thuanhbui/IdeaProjects/kthdv/NewSOAPHomework/src/main/java/com/baeldung/springsoap/gen/ObjectFactory.java

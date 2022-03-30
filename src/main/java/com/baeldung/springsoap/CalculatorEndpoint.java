@@ -15,16 +15,16 @@ public class CalculatorEndpoint {
 
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "addRequest")
     @ResponsePayload
-    public CalculatorResponse add(@RequestPayload AddRequest request) {
-        CalculatorResponse response = new CalculatorResponse();
+    public AddResponse add(@RequestPayload AddRequest request) {
+        AddResponse response = new AddResponse();
         response.setResult(cal.add(request.getNumber1(),request.getNumber2()));
         return response;
     }
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "minusRequest")
     @ResponsePayload
-    public CalculatorResponse minus(@RequestPayload MinusRequest request) {
+    public MinusResponse minus(@RequestPayload MinusRequest request) {
         System.out.println("endpoint1");
-        CalculatorResponse response = new CalculatorResponse();
+        MinusResponse response = new MinusResponse();
         System.out.println("endpoint2");
         response.setResult(cal.minus(request.getNumber1(),request.getNumber2()));
         System.out.println(response.getResult());
@@ -32,22 +32,22 @@ public class CalculatorEndpoint {
     }
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "multipleRequest")
     @ResponsePayload
-    public CalculatorResponse multiple(@RequestPayload MultipleRequest request) {
-        CalculatorResponse response = new CalculatorResponse();
+    public MultipleResponse multiple(@RequestPayload MultipleRequest request) {
+        MultipleResponse response = new MultipleResponse();
         response.setResult(cal.multiple(request.getNumber1(),request.getNumber2()));
         return response;
     }
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "divideRequest")
     @ResponsePayload
-    public CalculatorResponse divide(@RequestPayload DivideRequest request) {
-        CalculatorResponse response = new CalculatorResponse();
+    public DivideResponse divide(@RequestPayload DivideRequest request) {
+        DivideResponse response = new DivideResponse();
         response.setResult(cal.divide(request.getNumber1(),request.getNumber2()));
         return response;
     }
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "expRequest")
     @ResponsePayload
-    public CalculatorResponse exp(@RequestPayload ExpRequest request) {
-        CalculatorResponse response = new CalculatorResponse();
+    public ExpResponse exp(@RequestPayload ExpRequest request) {
+        ExpResponse response = new ExpResponse();
         response.setResult(cal.exp(request.getNumber1(),request.getNumber2()));
         return response;
     }

@@ -10,6 +10,14 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:element name="addResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="minusRequest">
         <xs:complexType>
             <xs:sequence>
@@ -18,6 +26,14 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:element name="minusResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="multipleRequest">
         <xs:complexType>
             <xs:sequence>
@@ -26,6 +42,14 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:element name="multipleResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="divideRequest">
         <xs:complexType>
             <xs:sequence>
@@ -34,6 +58,14 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:element name="divideResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="xs:float"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="expRequest">
         <xs:complexType>
             <xs:sequence>
@@ -42,8 +74,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
-    <xs:element name="calculatorResponse">
+    <xs:element name="expResponse">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="result" type="xs:float"/>
